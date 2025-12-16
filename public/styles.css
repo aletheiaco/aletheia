@@ -72,8 +72,9 @@ body{
   }
 
   .manifesto-inner{
-    font-size: 18px;
-    line-height: 1.8;
+    font-size: 21px;
+      line-height: 1.9;
+     letter-spacing: 0.6px;  /* antes 0.2px */
   }
 }
 
