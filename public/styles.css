@@ -51,7 +51,7 @@ body{
 
 .manifesto-inner{
   max-width: 640px;
-  margin: 0 auto;
+  margin: 0 0 28px;
 
   font-size: 21px;
   line-height: 1.9;
@@ -60,6 +60,8 @@ body{
 
 .manifesto-inner p{
   margin: 0 0 24px;
+   p:first-child{
+  color: #d4d8d2;
 }
 
 /* =========================
