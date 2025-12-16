@@ -58,9 +58,9 @@ body{
   margin: 0 0 28px;
 }
 
-/* Primera línea ligeramente más presente */
-.manifesto-inner p:first-child{
-  color: #d4d8d2;
+/.manifesto-inner p.highlight{
+  color: #dfe3dd;          /* apenas más claro */
+  letter-spacing: 0.8px;
 }
 
 /* =========================
