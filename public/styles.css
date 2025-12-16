@@ -1,1 +1,79 @@
+/* =========================
+   Variables base
+   ========================= */
+
+:root{
+  --bg: #0b1411;        /* verde casi negro */
+  --text: #e6e9e6;      /* blanco roto */
+  --muted: #bfc5c0;
+}
+
+/* =========================
+   Reset básico
+   ========================= */
+
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* =========================
+   Hero / Banner
+   ========================= */
+
+.hero{
+  width: 100%;
+}
+
+.hero-img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* =========================
+   Manifiesto
+   ========================= */
+
+.manifesto{
+  padding: 72px 20px 96px;
+}
+
+.manifesto-inner{
+  max-width: 640px;
+  margin: 0 auto;
+
+  font-size: 21px;
+  line-height: 1.85;
+  letter-spacing: 0.2px;
+}
+
+.manifesto-inner p{
+  margin: 0 0 24px;
+}
+
+/* =========================
+   Responsive
+   ========================= */
+
+@media (max-width: 640px){
+  .manifesto{
+    padding: 48px 18px 72px;
+  }
+
+  .manifesto-inner{
+    font-size: 18px;
+    line-height: 1.8;
+  }
+}
 
