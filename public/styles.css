@@ -125,6 +125,18 @@ body{
   .apply-seal{
     display: none;
   }
+
+  .apply-seal-mobile{
+  display: block;
+  position: static;
+
+  width: 64px;
+  height: 64px;
+
+  margin: 48px auto 0;
+  opacity: 0.9;
+}
+
 }
 
 @media (min-width: 1200px){
