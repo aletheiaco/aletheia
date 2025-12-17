@@ -77,11 +77,10 @@ body{
   height: 96px;
 
   float: left;
-  margin-left: -140px;
-  margin-right: 32px;
+  margin-left: 0;      /* <-- quita el negativo */
+  margin-right: 24px;
 
   opacity: 0.85;
-  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .apply-seal img{
